@@ -4,6 +4,7 @@ const assertEqual = function (array, firstelement) {
     } else {
         console.log(`🛑  Assertion failed: ${array[0]} !== ${expected}`);
     }
+    return firstelement;
 };
 
 assertEqual(([5, 6, 7]), 5);

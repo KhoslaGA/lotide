@@ -15,4 +15,4 @@ const flatten = function (array) {
 const result = flatten([1, 2, 3, [4, 5, 6]]);
 console.log(result);
 
-// module.exports = flatten;
+module.exports = flatten;

@@ -18,6 +18,6 @@ const assertEqual = function (actual, expected) {
     }
 };
 
-// module.exports = assertEqual;
+module.exports = assertEqual;
 
-assertEqual(1, 4);
+// assertEqual(1, 4);

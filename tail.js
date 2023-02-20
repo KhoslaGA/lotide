@@ -1,10 +1,9 @@
+const assertarrayequal = require('./assertarrayequal.js')
+
 const tail = function (array) {
-    return array.slice[1];
-    console.log()
-    if (array[0] === firstelement) {
-        console.log(`✅  Assertion passed: ${array[0]} === ${firstelement}`);
-    } else {
-        console.log(`🛑  Assertion failed: ${array[0]} !== ${expected}`);
-    }
+    return array.slice(1);
 
 }
+// console.log("Testing the tail function");
+assertarrayequal(tail(["Hello", "Lighthouse", "Labs"]), ["Lighthouse", "Labs"]);
+
